@@ -1,0 +1,78 @@
+#reactApp {
+  background-color: #000;
+  padding-bottom: 50px;
+}
+
+.reset.button-setting {
+  width: 100%;
+  border-radius: 45px;
+  background-color: #ff9933;
+  font-weight: bold;
+  color: #f00;
+}
+
+.zero.button-setting {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.last-row {
+  margin-bottom: 10px;
+}
+
+.calculator-skin {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 60px;
+  background: rgb(0,0,0) radial-gradient(circle at 50% 0, rgba(100,100,100,.65), rgba(030,030,030,.35));
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+}
+
+.container .calculator-keyboard {
+  position: absolute;
+  bottom: 0;
+}
+
+.btn-default {
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+}
+
+.title {
+  color: #6699ff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.calculator-display {
+  margin: 0 5px;
+  background-color: #000;
+  border-radius: 7px;
+  color: #ff9933;
+  font-size: 40px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.button-setting {
+  border-radius: 50%;
+  background-color: #ff9933;
+  height: 65px;
+  cursor: pointer;
+  font-size: 35px;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+.col-3 {
+  width: 60px !important;
+  margin-left: 7px;
+}
